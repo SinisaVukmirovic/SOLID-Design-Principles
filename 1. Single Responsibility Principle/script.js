@@ -17,3 +17,8 @@ class CaloriesTracker {
 
 const caloriesTracker = new CaloriesTracker(2000);
 
+caloriesTracker.trackCalories(444);
+caloriesTracker.trackCalories(444);
+caloriesTracker.trackCalories(444);
+caloriesTracker.trackCalories(444);
+caloriesTracker.trackCalories(444);
