@@ -19,6 +19,7 @@ ___
 
 [Liskov Substitution Principle Example](https://sinisavukmirovic.github.io/SOLID-Design-Principles/3.%20Liskov%20Substitution%20Principle/index.html)
 
+#### The main idea of the Liskov substitution principle is that any function/module that interacts with a class should also be able to interact with all subclasses of that class without breaking. This essentially means that a class is interchangeable with its subclasses.
 #### If X is a subtype of Z, then objects of type Z may be replaced with objects of type X.
 #### If you have a class of Animal, every single place that you used the Animal class, you should be able to replace it with one of its subclasses. If you have another class of Dog that inherits from Animal class, then every single place that you used Animal class, you should be able to use Dog class and its going to work just as well as it did before.
 #### Anywhere that you use one type of class, you need to be able to use all of the subclasses of that class.
