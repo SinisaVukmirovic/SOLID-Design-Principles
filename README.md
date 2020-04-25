@@ -31,3 +31,9 @@ ___
 
 #### The main idea of the interface segregation principle is that any class that implements an interface must use all functions/properties of the interface. JavaScript does not have actual interfaces, but a class inheritance structure is similar enough that it works in this instance. This means that any class that inherits from another class needs to use all of the methods/properties from the base class. This encourages writing small classes instead of large classes.
 ___
+
+## D - Dependency Inversion Principle
+
+[Dependency Inversion Principle Example](https://sinisavukmirovic.github.io/SOLID-Design-Principles/5.%20Dependency%20Inversion%20Principle/index.html)
+
+#### The Dependency Inversion Principle (DIP) states that high level modules should not depend on low level modules; both should depend on abstractions. Abstractions should not depend on details.
